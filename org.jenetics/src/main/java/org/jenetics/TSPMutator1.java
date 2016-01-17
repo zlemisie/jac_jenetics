@@ -69,7 +69,6 @@ public class TSPMutator1<
 		this(DEFAULT_ALTER_PROBABILITY);
 	}
 
-
 	@Override
 	protected int mutate(final MSeq<EnumGene<Integer>> genes, final double p) {
 		final Random random = RandomRegistry.getRandom();
