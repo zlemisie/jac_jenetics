@@ -99,7 +99,15 @@ public class SinglePointCrossover<
 			that.length(), index
 		);
 
+		//System.out.println("SPC test:");
+		//System.out.println(index);
+		//System.out.println(that);
+		//System.out.println(other);
 		that.swap(index, that.length(), other, index);
+
+		//System.out.println("SPC test2:");
+		//System.out.println(that);
+		//System.out.println(other);
 	}
 
 	@Override

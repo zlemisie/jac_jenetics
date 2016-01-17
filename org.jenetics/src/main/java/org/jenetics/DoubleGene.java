@@ -139,7 +139,13 @@ public final class DoubleGene
 			nextDouble(RandomRegistry.getRandom(), _min, _max), _min, _max
 		);
 	}
-
+/*
+	public DoubleGene newInstance2() {
+		return new DoubleGene(
+				0.0, _min, _max
+		);
+	}
+*/
 	@Override
 	public DoubleGene mean(final DoubleGene that) {
 		return new DoubleGene(_value + (that._value - _value)/2.0, _min, _max);

@@ -61,6 +61,7 @@ public interface Gene<A, G extends Gene<A, G>>
 	 */
 	@Override
 	public G newInstance();
+	//public G newInstance2();
 
 	/**
 	 * Create a new gene from the given {@code value} and the gene context.
